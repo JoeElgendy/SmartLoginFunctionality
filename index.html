@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body style="background-color: #24353f">
+    <section>
+      <div class="container w-75 my-5 text-center">
+        <div class="text-white w-75 p-5 box m-auto">
+          <h1 class="secondary-color text-center" id="Welcome">
+            Smart Login System
+          </h1>
+          <input
+            id="signinEmail"
+            placeholder="Enter Your Email"
+            class="form-control my-3 primary-color"
+            type="text"
+          />
+
+          <input
+            id="signinPassword"
+            class="form-control my-3 primary-color"
+            placeholder="Enter your password"
+            type="password"
+          />
+
+          <span id="invalid" class="text-danger d-none"> invalid input</span>
+          <button class="btn btn-outline-info w-100 my-3 login">Login</button>
+          <p class="text-center">
+            Don't Have An Account?
+            <a href="signup.html" class="text-white">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>

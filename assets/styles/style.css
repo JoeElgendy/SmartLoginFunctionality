@@ -1,0 +1,34 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.primary-color {
+  background-color: #24353f;
+}
+.secondary-color {
+  color: #17a2b8;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+input::placeholder {
+  background-color: transparent !important;
+  color: #ced4d9 !important;
+}
+
+input:focus,
+textarea:focus {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: #7fbcfe;
+}
+.btn-main:hover {
+  color: white;
+}

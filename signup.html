@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body style="background-color: #24353f">
+    <section>
+      <div class="container w-75 my-5 text-center">
+        <div class="text-white w-75 p-5 box m-auto">
+          <h1 class="secondary-color text-center">Smart Login System</h1>
+          <input
+            id="userName"
+            placeholder="Enter Your name"
+            class="form-control my-3 primary-color"
+            type="text"
+          />
+          <span class="text-danger d-none invalid-name">
+            Invalid username. The username must start with an uppercase letter
+            and be at least 4 characters long, including letters, numbers, and
+            underscores.
+          </span>
+          <input
+            id="userEmail"
+            class="form-control my-3 primary-color"
+            placeholder="Enter your email"
+            type="text"
+          />
+          <span class="text-danger d-none invalid-email">
+            Invalid email address. Please enter a valid email address in the
+            format 'yourname@example.com'.</span
+          >
+          <input
+            id="userPassword"
+            class="form-control my-3 primary-color"
+            placeholder="Enter your password"
+            type="password"
+          />
+          <span class="text-danger d-none invalid-password">
+            Invalid password. Passwords must be 8-16 characters long and include
+            at least one uppercase letter, one lowercase letter, one number, and
+            one special character. Spaces are not allowed.</span
+          >
+          <button class="btn btn-outline-info w-100 my-3 SignUp">
+            Sign Up
+          </button>
+          <p class="text-center">
+            already have an account
+            <a href="index.html" class="text-white">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
